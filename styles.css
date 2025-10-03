@@ -1,7 +1,7 @@
 :root {
   --text-color: #1a1c20;
   --link-color: #4a76ee;
-  --background-color: #eeeff1;
+  --background-color: #c9d0e0;
 }
 
 * {
@@ -34,7 +34,8 @@ nav {
   align-items: center;
 
   padding: 0 50px;
-  height: 80px;
+  height: 70px;
+  border-bottom : 2px solid black;
 }
 
 nav .left a {
@@ -128,6 +129,7 @@ nav .right a span {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+
 }
 
 .skills-section .cells .cell {
@@ -139,7 +141,8 @@ nav .right a span {
   width: 200px;
   padding: 10px 20px;
   margin: 10px;
-  border: 1.5px solid #d3d3d3;
+  border: 2px solid #212121;
+  box-shadow: 0 0 10px rgba(68, 67, 67, 0.5);
   border-radius: 5px;
 }
 
@@ -157,8 +160,10 @@ nav .right a span {
 /* Achievements Section */
 .achievements-section {
   padding: 60px 20px;
-  background: #f9f9f9;
+  background: #ecc7c7;
   text-align: center;
+  border: 2px solid #333;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 .achievements-section h2 {
