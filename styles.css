@@ -73,7 +73,7 @@ nav .right a span {
 box-shadow: 0 0 10px rgba(68, 67, 67, 0.5);
 }
 .hero-section:hover{
-box-shadow: 0 0 100px rgba(68, 67, 67, 0.5);
+box-shadow: 0 0 50px rgba(149, 147, 147, 0.5);
 }
 .hero-section .text {
   flex: 5;
@@ -123,7 +123,7 @@ box-shadow: 0 0 100px rgba(68, 67, 67, 0.5);
 }
 
 .skills-section:hover{
-  box-shadow: 0 0 100px rgba(68, 67, 67, 0.5);
+  box-shadow: 0 0 50px rgba(149, 147, 147, 0.5);
 }
 .skills-section h2 {
   text-align: center;
@@ -155,7 +155,10 @@ box-shadow: 0 0 100px rgba(68, 67, 67, 0.5);
   box-shadow: 0 0 10px rgba(68, 67, 67, 0.5);
   border-radius: 5px;
 }
-
+.skills-section .cells .cell:hover{
+  /* border: 3px solid #212121; */
+  box-shadow: 0 0 100px rgba(183, 177, 177, 0.5);
+}
 .skills-section .cells .cell img {
   width: 30px;
   height: 30px;
@@ -177,7 +180,7 @@ box-shadow: 0 0 100px rgba(68, 67, 67, 0.5);
 }
 
 .achievements-section:hover{
-  box-shadow: 0 0 100px rgba(68, 67, 67, 0.5);
+  box-shadow: 0 0 50px rgba(149, 147, 147, 0.5);;
 }
 
 .achievements-section h2 {
@@ -251,7 +254,7 @@ box-shadow: 0 0 100px rgba(68, 67, 67, 0.5);
   padding:30px;
   background-color:rgb(186, 238, 232);
   border: 1px solid #333;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  box-shadow: 0 0 50px rgba(149, 147, 147, 0.5);
 }
 
 .contact-section:hover{
