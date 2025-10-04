@@ -1,7 +1,7 @@
 :root {
   --text-color: #1a1c20;
   --link-color: #4a76ee;
-  --background-color: #c9d0e0;
+  --background-color: #c3d2f6;
 }
 
 * {
@@ -32,7 +32,6 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
   padding: 0 50px;
   height: 70px;
   border-bottom : 2px solid black;
@@ -65,12 +64,17 @@ nav .right a span {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 50px;
+  padding: 50px 50px;
   margin: 50px 0;
   margin-bottom: 100px;
   gap: 40px;
+  background-color: rgb(176, 233, 239);
+  border: 1px solid #212121;
+box-shadow: 0 0 10px rgba(68, 67, 67, 0.5);
 }
-
+.hero-section:hover{
+box-shadow: 0 0 100px rgba(68, 67, 67, 0.5);
+}
 .hero-section .text {
   flex: 5;
 }
@@ -111,10 +115,16 @@ nav .right a span {
 
 /* SECTION 2: Skills */
 .skills-section {
-  padding: 0 50px;
+  padding: 50px 50px;
   margin-bottom: 100px;
+  background-color: rgb(232, 213, 238);
+  border: 1px solid #212121;
+  box-shadow: 0 0 10px rgba(68, 67, 67, 0.5);
 }
 
+.skills-section:hover{
+  box-shadow: 0 0 100px rgba(68, 67, 67, 0.5);
+}
 .skills-section h2 {
   text-align: center;
   font-size: 35px;
@@ -160,10 +170,14 @@ nav .right a span {
 /* Achievements Section */
 .achievements-section {
   padding: 60px 20px;
-  background: #ecc7c7;
+  background-color:rgb(192, 251, 192);
   text-align: center;
-  border: 2px solid #333;
+  border: 1px solid #333;
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.achievements-section:hover{
+  box-shadow: 0 0 100px rgba(68, 67, 67, 0.5);
 }
 
 .achievements-section h2 {
@@ -232,12 +246,22 @@ nav .right a span {
 
 /* SECTION 4: Contact */
 .contact-section {
-  padding: 0 50px;
+  padding: 60px 20px;
   margin-bottom: 100px;
+  padding:30px;
+  background-color:rgb(186, 238, 232);
+  border: 1px solid #333;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.contact-section:hover{
+  box-shadow: 0 0 100px rgba(68, 67, 67, 0.5);
 }
 
 .contact-section h2 {
   font-size: 35px;
+  text-align:center;
+  padding : 20px 40px;
 }
 
 .contact-section .group {
